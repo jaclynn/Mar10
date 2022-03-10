@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
   vector <int> grades = {};
+  vector <string> names = {};
   grades.push_back(98);
   grades.push_back(78);
   grades.push_back(88);
@@ -17,4 +18,5 @@ int main() {
     cout << grades[i] << ' ';
   }
   cout << endl;
+  names.push_back("Jackie");
 }
